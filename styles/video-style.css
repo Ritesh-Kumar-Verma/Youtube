@@ -1,25 +1,21 @@
-body {
-  font-family: Roboto;
-}
-p{
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 .thumbnail {
-  width: 300px;
-  display: inline-block;
+  width: 100%;
 }
 
 .search-bar {
   display: block;
 }
 
-.video-preview {
-  width: 300px;
-  display: inline-block;
-  margin-right: 5px;
-  vertical-align: top;
+.video-grid{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
 }
+
+
 
 .profile-picture {
   width: 100%;
@@ -29,15 +25,11 @@ p{
   margin-bottom: 10px;
 }
 
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
-.video-info {
-  display: inline-block;
-  width: 200px;
-}
+
 
 .video-title {
   font-size: 14px;

@@ -1,0 +1,12 @@
+.sidebar{
+    position:fixed;
+    background-color: gray;
+    top: 57px;
+    left: 0px;
+    bottom: 0px;
+    width: 72px;
+}
+
+.sidebar-icon{
+    
+}
