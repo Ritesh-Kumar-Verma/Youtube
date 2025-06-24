@@ -1,12 +1,40 @@
 .sidebar{
     position:fixed;
-    background-color: gray;
-    top: 57px;
+    background-color: white;
+    top: 55px;
     left: 0px;
     bottom: 0px;
     width: 72px;
+    z-index: 2;
+    padding-top: 5px;
 }
 
-.sidebar-icon{
-    
+.sidebar-tab{
+    display: flex;
+    height: 74px;
+    margin-bottom:1px ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-tab:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.sidebar-tab button img{
+    height: 24px;
+    background: transparent;
+}
+
+.sidebar-tab button{
+    background: transparent;
+    border: none;
+}
+
+.sidebar-tab div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+
+
 }
