@@ -62,7 +62,17 @@
 
 .youtube-logo {
   height: 20px;
+  position: relative;
 }
+.in-logo{
+  position: relative;
+
+  color: black;
+  /* background-color: gray; */
+  display: inline-block;
+  top: -13px;
+}
+
 .search-button {
   height: 40px;
   width: 60px;
